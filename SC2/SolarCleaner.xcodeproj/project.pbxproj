@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196F5AFF2596D61A005DBB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196F5AFE2596D61A005DBB7C /* AppDelegate.swift */; };
+		196F5B012596D61A005DBB7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196F5B002596D61A005DBB7C /* SceneDelegate.swift */; };
+		196F5B062596D61A005DBB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196F5B042596D61A005DBB7C /* Main.storyboard */; };
+		196F5B082596D61F005DBB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196F5B072596D61F005DBB7C /* Assets.xcassets */; };
+		196F5B0B2596D61F005DBB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196F5B092596D61F005DBB7C /* LaunchScreen.storyboard */; };
+		196F5B1325971EE7005DBB7C /* ScheduleControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196F5B1225971EE7005DBB7C /* ScheduleControlViewController.swift */; };
+		196F5B15259722E2005DBB7C /* ManualControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196F5B14259722E2005DBB7C /* ManualControlViewController.swift */; };
+		D6DCBA7F3BB5D5E62BDEDE0B /* Pods_SolarCleaner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616165AF97A32AD8E6911658 /* Pods_SolarCleaner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196F5AFB2596D61A005DBB7C /* SolarCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F5AFE2596D61A005DBB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		196F5B002596D61A005DBB7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		196F5B052596D61A005DBB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		196F5B072596D61F005DBB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196F5B0A2596D61F005DBB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		196F5B0C2596D61F005DBB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196F5B1225971EE7005DBB7C /* ScheduleControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleControlViewController.swift; sourceTree = "<group>"; };
+		196F5B14259722E2005DBB7C /* ManualControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualControlViewController.swift; sourceTree = "<group>"; };
+		4E53866C13D0A82A816165C6 /* Pods-SolarCleaner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarCleaner.release.xcconfig"; path = "Target Support Files/Pods-SolarCleaner/Pods-SolarCleaner.release.xcconfig"; sourceTree = "<group>"; };
+		616165AF97A32AD8E6911658 /* Pods_SolarCleaner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolarCleaner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C826B45523B77329D4953 /* Pods-SolarCleaner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolarCleaner.debug.xcconfig"; path = "Target Support Files/Pods-SolarCleaner/Pods-SolarCleaner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196F5AF82596D61A005DBB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DCBA7F3BB5D5E62BDEDE0B /* Pods_SolarCleaner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196F5AF22596D61A005DBB7C = {
+			isa = PBXGroup;
+			children = (
+				196F5AFD2596D61A005DBB7C /* SolarCleaner */,
+				196F5AFC2596D61A005DBB7C /* Products */,
+				91E0754559A5C19575F74878 /* Pods */,
+				8A5D804DE319B930F32339FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		196F5AFC2596D61A005DBB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196F5AFB2596D61A005DBB7C /* SolarCleaner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196F5AFD2596D61A005DBB7C /* SolarCleaner */ = {
+			isa = PBXGroup;
+			children = (
+				196F5B042596D61A005DBB7C /* Main.storyboard */,
+				196F5B14259722E2005DBB7C /* ManualControlViewController.swift */,
+				196F5B1225971EE7005DBB7C /* ScheduleControlViewController.swift */,
+				196F5AFE2596D61A005DBB7C /* AppDelegate.swift */,
+				196F5B002596D61A005DBB7C /* SceneDelegate.swift */,
+				196F5B072596D61F005DBB7C /* Assets.xcassets */,
+				196F5B092596D61F005DBB7C /* LaunchScreen.storyboard */,
+				196F5B0C2596D61F005DBB7C /* Info.plist */,
+			);
+			path = SolarCleaner;
+			sourceTree = "<group>";
+		};
+		8A5D804DE319B930F32339FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				616165AF97A32AD8E6911658 /* Pods_SolarCleaner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E0754559A5C19575F74878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C826B45523B77329D4953 /* Pods-SolarCleaner.debug.xcconfig */,
+				4E53866C13D0A82A816165C6 /* Pods-SolarCleaner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196F5AFA2596D61A005DBB7C /* SolarCleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196F5B0F2596D61F005DBB7C /* Build configuration list for PBXNativeTarget "SolarCleaner" */;
+			buildPhases = (
+				85DAF4314F405BB4AD5CDBF0 /* [CP] Check Pods Manifest.lock */,
+				196F5AF72596D61A005DBB7C /* Sources */,
+				196F5AF82596D61A005DBB7C /* Frameworks */,
+				196F5AF92596D61A005DBB7C /* Resources */,
+				CAC7E8545DEC2254AFA9C486 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarCleaner;
+			productName = SolarCleaner;
+			productReference = 196F5AFB2596D61A005DBB7C /* SolarCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196F5AF32596D61A005DBB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kevin Lu";
+				TargetAttributes = {
+					196F5AFA2596D61A005DBB7C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 196F5AF62596D61A005DBB7C /* Build configuration list for PBXProject "SolarCleaner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196F5AF22596D61A005DBB7C;
+			productRefGroup = 196F5AFC2596D61A005DBB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196F5AFA2596D61A005DBB7C /* SolarCleaner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196F5AF92596D61A005DBB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F5B0B2596D61F005DBB7C /* LaunchScreen.storyboard in Resources */,
+				196F5B082596D61F005DBB7C /* Assets.xcassets in Resources */,
+				196F5B062596D61A005DBB7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85DAF4314F405BB4AD5CDBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolarCleaner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC7E8545DEC2254AFA9C486 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarCleaner/Pods-SolarCleaner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolarCleaner/Pods-SolarCleaner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolarCleaner/Pods-SolarCleaner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196F5AF72596D61A005DBB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F5AFF2596D61A005DBB7C /* AppDelegate.swift in Sources */,
+				196F5B012596D61A005DBB7C /* SceneDelegate.swift in Sources */,
+				196F5B15259722E2005DBB7C /* ManualControlViewController.swift in Sources */,
+				196F5B1325971EE7005DBB7C /* ScheduleControlViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		196F5B042596D61A005DBB7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196F5B052596D61A005DBB7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		196F5B092596D61F005DBB7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196F5B0A2596D61F005DBB7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196F5B0D2596D61F005DBB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		196F5B0E2596D61F005DBB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196F5B102596D61F005DBB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2C826B45523B77329D4953 /* Pods-SolarCleaner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolarCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinlu.SolarCleaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196F5B112596D61F005DBB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E53866C13D0A82A816165C6 /* Pods-SolarCleaner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SolarCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinlu.SolarCleaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196F5AF62596D61A005DBB7C /* Build configuration list for PBXProject "SolarCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F5B0D2596D61F005DBB7C /* Debug */,
+				196F5B0E2596D61F005DBB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196F5B0F2596D61F005DBB7C /* Build configuration list for PBXNativeTarget "SolarCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196F5B102596D61F005DBB7C /* Debug */,
+				196F5B112596D61F005DBB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 196F5AF32596D61A005DBB7C /* Project object */;
+}
